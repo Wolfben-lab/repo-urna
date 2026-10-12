@@ -1,0 +1,19 @@
+package urna;
+
+import javax.swing.JOptionPane;
+
+public class main {
+  public static void main(String[]args) {
+	
+	for(int i = 1; i >= 1; i++){
+	String eleitor = JOptionPane.showInputDialog("Informe seu nome");
+	
+	
+	if(eleitor == null) {
+		JOptionPane.showMessageDialog(null, "Voto nulo!");
+	}
+	
+	
+	}
+}
+}
